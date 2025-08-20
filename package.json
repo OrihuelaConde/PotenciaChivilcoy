@@ -1,0 +1,9 @@
+{
+  "name": "potencia-chivilcoy-landing",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "echo 'Static site - no build step'"
+  }
+}
