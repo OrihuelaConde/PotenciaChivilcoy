@@ -55,7 +55,7 @@ img { max-width: 100%; height: auto; display: block; }
 /* Candidate cards */
 .candidate-card { border: none; border-radius:14px; background:#fff; box-shadow:0 4px 18px -6px rgba(0,0,0,.08); transition: transform .3s, box-shadow .3s; }
 .candidate-card:hover { transform: translateY(-6px); box-shadow:0 14px 38px -10px rgba(0,0,0,.2); }
-.candidate-img { background: none; aspect-ratio:1/1; width:100%; height:auto; border-radius:14px 14px 0 0; display:flex; align-items:center; justify-content:center; color:#222; font-size:.75rem; font-weight:600; letter-spacing:1px; position:relative; overflow:hidden; }
+.candidate-img { background: #D8D9DB; aspect-ratio:1/1; width:100%; height:auto; border-radius:14px 14px 0 0; display:flex; align-items:center; justify-content:center; color:#222; font-size:.75rem; font-weight:600; letter-spacing:1px; position:relative; overflow:hidden; }
 /* Fallback para navegadores sin aspect-ratio */
 .candidate-img::before { content:""; display:block; padding-top:100%; /* mantiene cuadrado */ }
 .candidate-img > img { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; }
